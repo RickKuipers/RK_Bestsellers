@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <RK_Bestsellers>
+            <active>true</active>
+            <codePool>community</codePool>
+        </RK_Bestsellers>
+    </modules>
+</config>

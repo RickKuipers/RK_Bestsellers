@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<layout>
+
+    <default>
+        <reference name="right">
+            <block type="bestsellers/bestsellers" name="bestsellers" template="bestsellers/bestsellers.phtml" />
+        </reference>
+    </default>
+
+</layout>

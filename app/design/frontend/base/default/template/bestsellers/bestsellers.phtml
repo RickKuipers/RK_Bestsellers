@@ -1,0 +1,18 @@
+<?php
+/* @var $this RK_Bestsellers_Block_Bestsellers */
+$bestsellers = $this->getBestsellers(10);
+?>
+<div class="block" id="sidebar-bestsellers">
+    <div class="block-title">
+        <strong>
+            <span><?php echo $this->__('Most Sold') ?></span>
+        </strong>
+    </div>
+    <div class="block-content">
+        <ul>
+        <?php foreach ($bestsellers as $product) : ?>
+            <li><a href="<?=$product->getProductUrl()?>"><?=$product->getName()?></a></li>
+        <?php endforeach ?>
+        </ul>
+    </div>
+</div>

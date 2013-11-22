@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <RK_Bestsellers>
+            <version>1.0.0</version>
+        </RK_Bestsellers>
+    </modules>
+    <global>
+        <blocks>
+            <bestsellers>
+                <class>RK_Bestsellers_Block</class>
+            </bestsellers>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <bestsellers>
+                    <file>bestsellers.xml</file>
+                </bestsellers>
+            </updates>
+        </layout>
+    </frontend>
+    <default>
+        <catalog>
+            <bestsellers>
+                <cache_lifetime>3600</cache_lifetime>
+            </bestsellers>
+        </catalog>
+    </default>
+</config>
